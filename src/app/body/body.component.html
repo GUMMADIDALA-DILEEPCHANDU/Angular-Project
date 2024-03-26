@@ -1,1 +1,32 @@
 <p>body works!</p>
+<!-- product-list.component.html -->
+<!-- body.component.html -->
+<table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Discount</th>
+        <th>Rating</th>
+        <th>Stock</th>
+        <th>Brand</th>
+        <th>Category</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of products">
+        <td>{{ product.id }}</td>
+        <td>{{ product.title }}</td>
+        <td>{{ product.description }}</td>
+        <td>{{ product.price }}</td>
+        <td>{{ product.discountPercentage }}</td>
+        <td>{{ product.rating }}</td>
+        <td>{{ product.stock }}</td>
+        <td>{{ product.brand }}</td>
+        <td>{{ product.category }}</td>
+      </tr>
+    </tbody>
+  </table>
+  
