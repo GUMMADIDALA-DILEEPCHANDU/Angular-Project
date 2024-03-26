@@ -15,4 +15,9 @@ export class ProductService {
     //console.log(this.http.get<any>(this.apiUrl));
     return this.http.get<any>(this.apiUrl);
   }
+
+  getiteams(): Observable<any> {
+    //console.log(this.http.get<any>(this.apiUrl));
+    return this.http.get<any>("http://localhost:8080/items");
+  }
 }

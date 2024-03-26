@@ -1,1 +1,18 @@
 /* footer.component.css */
+.footer {
+    background-color: #333; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 20px; /* Add padding */
+    text-align: center; /* Align text to center */
+    width: 100%; /* Full width */
+  }
+  
+  .footer a {
+    color: #fff; /* Set link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  

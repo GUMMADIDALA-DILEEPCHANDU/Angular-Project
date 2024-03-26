@@ -1,1 +1,13 @@
+<div>
 <p>blog works!</p>
+<div *ngIf="products">
+    <h2>Items</h2>
+    <ul>
+      <li *ngFor="let key of getObjectKeys(products)">
+        ID: {{ key }} - Item: {{ products[key] }}
+      </li>
+    </ul>
+</div>
+
+
+</div>
